@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <style>
+      .carousel-inner > .carousel-item > img {
+        width: 640px;
+        height: 450px;
+      }
+
+      footer {
+        background-color: #f0f0f0;
+        padding: 10px;
+        text-align: center;
+      }
+      .login-form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+      }
+      .login-form input[type="text"],
+      .login-form input[type="password"] {
+        padding: 5px;
+        margin-right: 5px;
+      }
+      .login-form input[type="submit"] {
+        padding: 5px 10px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Home</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Carasoul -->
+
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+        </div>
+        
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1636114673156-052a83459fc1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          
+         
+        </div>
+          
+      </div>
+
+      <!-- Card -->
+
+      <div class="container-fluid d-flex justify-content-between">
+        <div class="card" style="width: 18rem">
+          <img
+            src=""
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h3 class="card-title">Youtube</h3>
+            <p class="card-text">
+              YouTube is a free video sharing website that makes it easy to
+              watch online videos. You can even create and upload your own
+              videos to share with others. Originally created in 2005, YouTube
+              is now one of the most popular sites on the Web, with visitors
+              watching around 6 billion hours of video every month.
+            </p>
+            <a href="Youtube.html" target="_parent" class="btn btn-danger">
+              More</a
+            >
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://images.unsplash.com/photo-1633354931133-27ac1ee5d853?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=580&q=80"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h3 class="card-title">WhatsApp</h3>
+            <p class="card-text">
+              WhatsApp is a free cross-platform messaging service. It lets users
+              of iPhone and Android smartphones and Mac and Windows PC call and
+              exchange text, photo, audio and video messages with others across
+              the globe for free, regardless of the recipient's device.
+            </p>
+            <a href="Whatsapp.html" class="btn btn-success">More</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://images.unsplash.com/photo-1649091245850-71ad5a18e117?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=862&q=80"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h3 class="card-title">Facebook</h3>
+            <p class="card-text">
+              Facebook is a social networking website that was founded in
+              February 2004 by Harvard University students Chris Hughes, Andrew
+              McCollum, Dustin Moskovitz, Eduardo Saverin and Mark Zuckerberg.
+              The idea behind Facebook was to provide an online book of faces
+              for university students to connect and share information.
+            </p>
+            <a href="facebook.html" class="btn btn-primary">More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <form class="login-form" action="#" method="post">
+        <input type="text" name="username" placeholder="Username" />
+        <input type="password" name="password" placeholder="Password" />
+        <input type="submit" value="Login" />
+      </form>
+      &copy; 2023 My Website. All rights reserved.
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

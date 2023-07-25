@@ -1,0 +1,56 @@
+.custom-carousel-image {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .carousel-inner {
+    max-height: 600px;
+  }
+  
+  @media (max-width: 768px) {
+    .custom-carousel-image {
+      max-height: 400px;
+    }
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: 400%;
+  }
+  
+  .custom-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .card-body {
+    flex-grow: 1;
+  }
+  
+  .card1 {
+    align-items: flex-start;
+    align-self: start;
+  }
+  
+  .card2 {
+    align-items: center;
+    align-self: center;
+  }
+  
+  .card3 {
+    align-items: flex-end;
+    
+  }
+  body{
+    background-image: url(/download\ \(1\)fry.jpg);
+    background-size: cover;
+  }
+  h1{
+
+    text-align: center;
+    background-color:chocolate;
+    color:chartreuse;
+
+  }
